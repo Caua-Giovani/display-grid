@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(35deg,rgba(255, 255, 0, 0.4) 0%, rgba(255, 166, 0, 0.3) 30%, rgba(255, 85, 0, 0.6) 100%), url(https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+
+    /* background-image: url(https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg);
+    background-size: cover;*/
+}
+
+.sol{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border-radius: 100%;
+
+    background: radial-gradient(circle,rgb(255, 255, 0) 40%, rgba(252, 112, 70, 0.4) 60%);
+    background-size: cover;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    box-shadow: 0px 0px 100px rgba(252, 112, 70, 1) ;
+}
+
+.nuvem{
+    display: flex;
+    position: relative; 
+    left: 20%;
+    top: 10%;
+}
+
+.bol_nuv{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 100px rgb(255, 255, 255) ;
+}
+
+.nuv1{
+    position: absolute;
+    left: 9%;
+}
+
+.nuv2{
+    position: absolute;
+    left: 5%;
+}
+
+.nuv3{
+    position: absolute;
+    left: 1%;
+}
