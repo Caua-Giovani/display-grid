@@ -19,7 +19,7 @@
     display: grid;
 
     grid-template-columns: repeat(3,250px);
-    grid-template-rows: repeat(3,250px);
+    grid-template-rows: repeat(3,200px);
 
     gap: 10px;
 
@@ -91,5 +91,3 @@
 .box6{
     background-color: var(--pizzas-bg);
 }
-
-
